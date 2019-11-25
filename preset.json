@@ -1,0 +1,17 @@
+{
+"ls-default-preset" : {
+    "useConfigFiles": true,
+    "plugins": {
+      "@vue/cli-plugin-babel": {},
+      "@vue/cli-plugin-eslint": {
+        "config": "airbnb",
+        "lintOn": [
+          "save"
+        ]
+      },
+      "@vue/cli-plugin-unit-jest": {}
+    },
+    "vuex": true,
+    "cssPreprocessor": "node-sass"
+  }
+}
